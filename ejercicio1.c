@@ -6,8 +6,8 @@ int main () {
   d = 'z';
   e = '\t';
   
-  //Escrib el código para imprimir las direcciones de a, b y c
-
+  //Escrib el código para imprimir las direcciones de c,d e.
+printf("%a \n %p \n %n \n", &c,&d,&e);
   ap = &c;
   // imprime el carácter de la localidad a la que apunta
   printf("Carácter: %c\n",*ap);
