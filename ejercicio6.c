@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void invertirCadena(char *cadena) {
+void invertirCadena(char *cadena) { //funcion para devolver el tamaño de la cadena
     char *inicio = cadena;
     char *fin = inicio + strlen(cadena) - 1;
     char temp;
